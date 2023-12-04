@@ -1,0 +1,13 @@
+.border {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 16px;
+}
+
+input {
+    color: rgb(197, 20, 20)!important;
+}
+
+.red {
+    color: red;
+}
