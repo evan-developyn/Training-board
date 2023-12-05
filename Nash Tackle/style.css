@@ -1,0 +1,399 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+button {
+    background-color: #009FE3;
+    border: 2px 2px;
+    border-color: #009FE3;
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 12px 10px;
+}
+
+
+footer {
+    background-color: #323232;
+    flex-direction: column;
+    font-family: 'Work Sans', sans-serif;
+    justify-content: center;
+    padding: 57px 20vw 45px;
+}
+
+footer a {
+    color: #fff;
+    display: flex;
+    position: relative;
+}
+
+footer button {
+    border-width: 2px;
+    font-size: 17px;
+    height: 42.5px;
+    margin-top: 0.6rem;
+    padding: 8px;
+    width: 180px;
+}
+
+footer input {
+    gap: 10px;
+}
+
+footer p {
+    color: #fff;
+    display: flex;
+    font-size: 13px;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 129px;
+    font-weight: 300;
+    margin-bottom: 1%;
+    width: 100%;
+}
+
+h2 {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header {
+    align-items: center;
+    background-color: #323232;
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+    justify-content: center;
+    padding: 15px 0px 12px;
+}
+
+header a {
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+input {
+    display: block;
+    margin-left: 4%;
+    padding: 13px 15px 11px 40px;
+}
+
+label {
+    color: white;
+    font-size: 11px;
+}
+
+nav {
+    border: 0 solid white;
+    border-top-width: 1px;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 6px;
+    gap: 27px;
+}
+
+p  {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 52px;
+    margin-bottom: 1%;
+    margin-top: -1%;
+    width: 100%;
+}
+
+.bottom {
+    font-weight: bold;
+    font-size: 13px;
+    width: auto;
+    margin-top: 35px;
+}
+
+.box-wrapper {
+    display: flex;
+    flex-direction: row;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    gap: 30px;
+    margin: 95px 0px;
+    min-height: 1px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.box1 {
+    background-color: #323232;
+    max-width: 33.3%;
+    position: relative;
+}
+
+.care {
+    line-height: 1.3;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    margin-right: 7rem;
+}
+
+.check {
+    display: flex;
+}
+
+.check input {
+    flex-shrink: 0;
+    height: 45px;
+    width: 45px;
+    border-radius: 0rem;
+}
+
+.checkbox {
+    line-height: 1.55;
+    margin-top: 0.8rem;
+}
+
+.contact {
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.contact img {
+    margin-bottom: 30px;
+}
+
+.follow {
+    margin-left: 0.5rem;
+}
+
+.foot {
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    line-height: 1;
+}
+
+.gradient {
+    background: linear-gradient(to right, #000 0%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.1) 100%);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.imgb {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.imgb button {
+    bottom: 21px;
+    font-weight: 800;
+    padding: 8px;
+    position: absolute;
+    width: 40%;
+}
+
+.imgb img {
+    width: 100%;
+}
+
+.imgb svg {
+    transform: translateY(160px);
+    position: absolute;
+}
+
+.imgwide img{
+    object-fit: cover;
+}
+
+.learnmore {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+.learnmore button {
+    width: 9%;
+}
+
+.nameemail {
+    margin-right: 3rem;
+}
+
+.nameemail input {
+    margin-bottom: 1rem;
+}
+
+.new {
+    color: white;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    width: 100%;
+}
+
+.new1 {
+    position: relative;
+}
+
+.new1 h2 {
+    font-size: 41px;
+}
+
+.new1 img {
+    object-fit: cover;
+}
+
+
+.new2 {
+    color: white;
+    left: 15%;
+    position: absolute;
+    text-align: left;
+    top: 20%;
+}
+
+.new2 h4 {
+    color: rgb(0, 159, 227);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.new2 h5 {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.new2 p {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.page {
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    right: 15vw;
+    position: absolute;
+
+}
+
+.page li {
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid white;
+    list-style: none;
+    width: 15px;
+}
+
+.page li.selected {
+    border-color: transparent;
+    background-color: #009FE3;
+}
+
+.phone {
+    margin-top: 1rem;
+}
+
+.reel a {
+    color: #009FE3;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.reel { 
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    justify-content: center;
+    padding: 72px 0 54px;
+}
+
+.reel h2 {
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 41px;
+}
+
+.reel h4 {
+    color: rgb(0, 159, 227);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.reel img {
+    display: inline-block;
+    height: auto;
+    vertical-align: middle;
+}
+
+.reel p {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.social {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 11px;
+}
+
+.social-links-container {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links-container * {
+    color: white;
+}
+
+.social-links-container2 {
+    display: flex;
+    gap: 35px;
+    margin-top: 35px;
+}
+
+.social2 {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 11px;
+}
+
+.ul {
+    font-size: 14px;
+    line-height: 1.3;
+    margin-left: 2rem;
+    margin-right: 9rem;
+}
+
+#navbox {
+    margin-left: 10%;
+}
